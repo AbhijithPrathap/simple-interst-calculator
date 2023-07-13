@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
+.App-header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: cornflowerblue;
+  width: 100%;
+  height: 850px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container{
+  background-color: rgb(208, 116, 165);
+  width: 500px;
+  border-radius: 25px;
+  padding: 50px;
+  text-align: justify;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.head{
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+p{
+  font-family: 'Times New Roman', Times, serif;
+}
+.card{
+  border-radius: 10px;
+  width: 500px;
+  height: 150px;
+  background-color: rgba(207, 188, 164, 0.797);
+}
+.Symbol{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding-top: 30px;
+  font-size: 40px;
+  font-weight: 500;
+  color: brown;
+}
+#para{
+  text-align: center;
+  font-size: larger;
+}
+.input{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+#outlined-basic{
+  background-color: rgba(196, 183, 164, 0.623);
+  border-radius: 10px;
+}
+#calculate{
+  background-color: green;
+  border-radius: 10px;
+}
+#reset{
+  background-color:rgb(190, 16, 16);
+  border-radius: 10px;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
